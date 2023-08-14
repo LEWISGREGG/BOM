@@ -1,0 +1,39 @@
+{
+  "name": "bom",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@badrap/bar-of-progress": "^0.2.2",
+    "@firebase/firestore": "^2.4.1",
+    "email-validator": "^2.0.4",
+    "firebase": "^10.1.0",
+    "firestore": "^1.1.6",
+    "moment": "^2.29.4",
+    "next": "^12.3.4",
+    "node": "^16.20.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^3.0.5",
+    "react-map-gl": "^7.1.3",
+    "react-router": "^6.14.2",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "^5.0.1",
+    "react-spinners": "^0.13.8",
+    "styled-components": "^6.0.5",
+    "sweetalert": "^2.1.2",
+    "tailwindcss": "^2.2.19",
+    "timeago-react": "^3.0.6",
+    "timeago.js": "^4.0.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.12"
+  }
+}
