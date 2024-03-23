@@ -2,28 +2,41 @@ import styled from "styled-components";
 import { useRouter } from "next/router";
 import firebase from '.././firebase';
 import { db } from ".././firebase";
-import {getFirestore, doc, updateDoc, deleteField, deleteDoc} from "firebase/firestore";
-import { useState, useEffect, useRef } from "react";
+import {firestore, updateDoc, doc, deleteField, deleteDoc} from "firebase/firestore";
+import { useState, useEffect, docRef, useRef } from "react";
+
+
+
 
 
 function Message({ item, qty, items, id , bom}) {
 
-const ref = firebase.firestore().collection("bom").doc(id).collection("items");
+  const ref = firebase.firestore().collection("items");
 
 const router = useRouter();
 
-const handleDel = (docx) => {
+
+
+
+function deleteDoc(docx){
+  if (
+      window.confirm("Are you sure you want to delete")
+  ) {
+  ref
   db.collection('bom')
   .doc(docx.id)
   .collection('items')
-  .doc(docx.id).delete().then(() => {
-      console.log("Successfully deleted!");
-  }).catch((error) => {
-      console.error("Error removing document: ", error);
-  });
+  .doc(docx.id)
+  .delete()
+  .catch((err) => {
+      alert(err)
+      console.error(err);
+  })}
 }
 
-function updateDoc(updateDoc){
+
+
+function updateDoac(updateDoc){
   ref
   .doc(updateDoc.id)
   .update(updateDoc)
@@ -34,10 +47,8 @@ function updateDoc(updateDoc){
 }
 
 
-function deleteDoc(docx){
-  if (
-      window.confirm("Are you sure you want to delete")
-  ) {
+function deleteDoca(docx){
+  
   ref
   .doc(docx.id)
   .delete().then(() => {
@@ -47,30 +58,8 @@ function deleteDoc(docx){
       alert(err)
       console.error(err);
   })}
-}
 
 
-
-const favoriteButtonUnlikeHandler = () => {
-  db.collection("bom")
-  .doc()
-  .collection("items")
-  .doc().delete()
-}
-
-const onDelete = (id) => {
-  if (
-    window.confirm("Are you sure you want to delete")
-  ) {
-    db.child(`bom/${id}`).remove((err) => {
-      if (err) {
-        toast.error(err);
-      } else {
-        toast.sucess("contact dele");
-      }
-    })
-  }
-}
 
 
 
@@ -80,13 +69,15 @@ const onDelete = (id) => {
         <div className="w-96 font-bold p-2">{item.item}</div>  <div className="w-60 font-bold p-2">{item.qty} </div> 
        
        <br/>
- <button  type="submit" onClick={handleDel}> Del</button>
+
    <br/>
    <br/>
- <button  type="submit" onClick={() => deleteDoc(item)}> Rem</button>
+ <button  type="submit" onClick={() => removeEventId(items)}> Remove</button>
    <br/>
    <br/>
- <button  type="submit" onClick={onDelete}> udal</button>
+
+
+
    <br/>
   
    <button className="inline-flex items-center justify-center p-1 bg-transparent hover:bg-yellow-500 text-blue-700 font-semibold hover:text-white  border border-blue-500 hover:border-transparent rounded" 

@@ -7,7 +7,7 @@ import firebase from "../firebase";
 import Message from "./Message";
 import SignOut from "./SignOut";
 import {ref, remove} from 'firebase/database';
-
+import {v4 as uuidv4} from "uuid";
 function ChatScreen({ items, qtys }) {
 
   const router = useRouter();
@@ -52,6 +52,7 @@ function ChatScreen({ items, qtys }) {
     db.collection("bom").doc(router.query.id).collection("items").add({
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       item: input,
+      id: uuidv4(),
       qty: inputa,
     });
     setInput("");
