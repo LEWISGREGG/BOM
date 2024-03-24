@@ -46,7 +46,17 @@ export default function Home() {
     
     
     <div className='h-full bg-gradient-to-tl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 p-4'>
-    {loader === false && data.map((bom) => <DataBlock bom={bom}/>)}
+ 
+
+    {loader === false && data.map((bom)=> (
+    <DataBlock
+    key={bom}
+    bom={bom}
+ 
+    />
+  ))}
+
+
     </div>
       
       </div>
