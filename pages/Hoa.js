@@ -41,7 +41,7 @@ function Hoa() {
 
 <div className="space-y-4 text-xs ">
 
-<p className="font-bold text-sm">· Power (ft' in'') :  
+<p className="font-bold text-sm">· Power (ft&apos; in&apos;&apos;) :  
 <input type="number" placeholder="foot" className="bg-white-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
  disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={power} onChange={evt => setPower(evt.currentTarget.value)} />
@@ -50,7 +50,7 @@ function Hoa() {
  value={powerInch} onChange={evt => setPowerInch(evt.currentTarget.value)} />
  </p>
 
-<p className="font-bold text-sm">· LUMEN (ft' in'') :  
+<p className="font-bold text-sm">· LUMEN (ft&apos; in&apos;&apos;) :  
 <input type="number" placeholder="foot" className="bg-white-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
  disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={catv} onChange={evt => setCatv(evt.currentTarget.value)} />
@@ -58,25 +58,25 @@ function Hoa() {
  disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={catvInch} onChange={evt => setCatvInch(evt.currentTarget.value)} /></p>
 
-<p className="font-bold text-sm">· CATV (ft' in'') :  
+<p className="font-bold text-sm">· CATV (ft&apos; in&apos;&apos;) :  
 <input type="number" placeholder="foot" className="bg-white-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={lumen} onChange={evt => setLumen(evt.currentTarget.value)} /> 
 <input type="number" placeholder="inch" className="bg-white-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={lumenInch} onChange={evt => setLumenInch(evt.currentTarget.value)} /></p>
 
-<p className="font-bold text-sm">· Attone (ft' in'') :  
+<p className="font-bold text-sm">· Attone (ft&apos; in&apos;&apos;) :  
 <input type="number" placeholder="foot" className="bg-white-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={attchOne} onChange={evt => setAttchOne(evt.currentTarget.value)} /> 
 <input type="number" placeholder="inch" className="bg-white-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={attchOneInch} onChange={evt => setAttchOneInch(evt.currentTarget.value)} /></p>
 
-<p className="font-bold text-sm">· Atttwo (ft' in'') :  
+<p className="font-bold text-sm">· Atttwo (ft&apos; in&apos;&apos;) :  
 <input type="number" placeholder="foot" className="bg-white-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={attchTwo} onChange={evt => setAttchTwo(evt.currentTarget.value)} /> 
 <input type="number" placeholder="inch" className="bg-white-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={attchTwoInch} onChange={evt => setAttchTwoInch(evt.currentTarget.value)} /></p>
 
-<p className="font-bold text-sm">· Attthree (ft' in'') :  
+<p className="font-bold text-sm">· Attthree (ft&apos; in&apos;&apos;) :  
 <input type="number" placeholder="foot" className="bg-white-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={attchThree} onChange={evt => setAttchThree(evt.currentTarget.value)} /> 
 <input type="number" placeholder="inch" className="bg-white-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
@@ -91,7 +91,7 @@ function Hoa() {
                       
                       Calculate</button>
 
-<p className="font-bold text-sm" >· LUMEN HOA : {difference}' {((differenceInch)*12)}''</p>       
+<p className="font-bold text-sm" >· LUMEN HOA : {difference}&apos; {((differenceInch)*12)}&apos;</p>       
 
 </div>
 

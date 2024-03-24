@@ -189,7 +189,7 @@ export default function TerminalCount(){
     
     <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 25'</h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 25&apos;</h3>
 
     <br />
     <div className="flex flex-row ">
@@ -207,7 +207,7 @@ export default function TerminalCount(){
     {/* 2 */}
     <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 50'</h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 50&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -226,7 +226,7 @@ export default function TerminalCount(){
     {/* 3 */}
     <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 100'</h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 100&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -245,7 +245,7 @@ export default function TerminalCount(){
     {/* 4 */}
     <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 200'</h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 200&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -264,7 +264,7 @@ export default function TerminalCount(){
      {/* 5 */}
     <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 300'</h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 300&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -283,7 +283,7 @@ export default function TerminalCount(){
      {/* 6 */}
     <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 400'</h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 400&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -302,7 +302,7 @@ export default function TerminalCount(){
   {/* 7 */}
   <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 500'</h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 500&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -321,7 +321,7 @@ export default function TerminalCount(){
   {/* 8 */}
   <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 600'</h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 600&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -340,7 +340,7 @@ export default function TerminalCount(){
   {/* 9 */}
   <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 700' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 700&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -360,7 +360,7 @@ export default function TerminalCount(){
   {/* 10 */}
   <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 800' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 800&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -380,7 +380,7 @@ export default function TerminalCount(){
   {/* 11 */}
   <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 900' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 900&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -399,7 +399,7 @@ export default function TerminalCount(){
   {/* 12 */}
   <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1000' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1000&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -418,7 +418,7 @@ export default function TerminalCount(){
   {/* 13 */}
   <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1100' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1100&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -436,7 +436,7 @@ export default function TerminalCount(){
 {/* 14 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1200' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1200&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -455,7 +455,7 @@ export default function TerminalCount(){
 {/* 15 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1300' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1300&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -475,7 +475,7 @@ export default function TerminalCount(){
 {/* 16 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1400' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1400&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -494,7 +494,7 @@ export default function TerminalCount(){
 {/* 17 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1500' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1500&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -512,7 +512,7 @@ export default function TerminalCount(){
 {/* 18 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1600' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1600&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -531,7 +531,7 @@ export default function TerminalCount(){
 {/* 19 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1700' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1700&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -550,7 +550,7 @@ export default function TerminalCount(){
 {/* 20 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1800' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1800&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -568,7 +568,7 @@ export default function TerminalCount(){
 {/* 21 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1900' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-pink-500 to-red-400 -top-3 ">4P - 1900&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -591,7 +591,7 @@ export default function TerminalCount(){
 <div className="h-full w-full py-5 px-5 bg-gray-100 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7">
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 25' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 25&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -613,7 +613,7 @@ export default function TerminalCount(){
 {/* 23 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 50' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 50&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -634,7 +634,7 @@ export default function TerminalCount(){
 {/* 24 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 100' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 100&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -654,7 +654,7 @@ export default function TerminalCount(){
 {/* 25 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 200' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 200&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -673,7 +673,7 @@ export default function TerminalCount(){
 {/* 26 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 300' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 300&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -693,7 +693,7 @@ export default function TerminalCount(){
 {/* 27 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 400' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 400&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -713,7 +713,7 @@ export default function TerminalCount(){
 {/* 28 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 500' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 500&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -733,7 +733,7 @@ export default function TerminalCount(){
 {/* 27 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 600' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 600&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -753,7 +753,7 @@ export default function TerminalCount(){
 {/* 28 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 700' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 700&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -773,7 +773,7 @@ export default function TerminalCount(){
 {/* 29 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 800' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 800&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -793,7 +793,7 @@ export default function TerminalCount(){
 {/* 29 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 900' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 900&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -814,7 +814,7 @@ export default function TerminalCount(){
 {/* 30 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1000' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1000&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -834,7 +834,7 @@ export default function TerminalCount(){
 {/* 31 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1100' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1100&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -855,7 +855,7 @@ export default function TerminalCount(){
 {/* 32 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1200' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1200&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -875,7 +875,7 @@ export default function TerminalCount(){
 {/* 33 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1300' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1300&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -896,7 +896,7 @@ export default function TerminalCount(){
 {/* 34 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1400' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1400&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -915,7 +915,7 @@ export default function TerminalCount(){
 {/* 35 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1500' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1500&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -934,7 +934,7 @@ export default function TerminalCount(){
 {/* 36 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1600' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1600&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -953,7 +953,7 @@ export default function TerminalCount(){
 {/* 37 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1700' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1700&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -973,7 +973,7 @@ export default function TerminalCount(){
 {/* 38 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1800' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1800&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -993,7 +993,7 @@ export default function TerminalCount(){
 {/* 39 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1900' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-green-500 to-green-400 -top-3 ">6P - 1900&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1016,7 +1016,7 @@ export default function TerminalCount(){
 {/* 40 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 25' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 25&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1037,7 +1037,7 @@ export default function TerminalCount(){
 {/* 41 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 50' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 50&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1056,7 +1056,7 @@ export default function TerminalCount(){
 {/* 42 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 100' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 100&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1075,7 +1075,7 @@ export default function TerminalCount(){
 {/* 43 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 200' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 200&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1094,7 +1094,7 @@ export default function TerminalCount(){
 {/* 44 - 6 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 300' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 300&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1114,7 +1114,7 @@ export default function TerminalCount(){
 {/* 45 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 400' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 400&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1133,7 +1133,7 @@ export default function TerminalCount(){
 {/* 46 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 500' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 500&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1153,7 +1153,7 @@ export default function TerminalCount(){
 {/* 47 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 600' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 600&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1173,7 +1173,7 @@ export default function TerminalCount(){
 {/* 48 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 700' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 700&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1192,7 +1192,7 @@ export default function TerminalCount(){
 {/* 49 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 800' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 800&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1211,7 +1211,7 @@ export default function TerminalCount(){
 {/* 50 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 900' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 900&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1230,7 +1230,7 @@ export default function TerminalCount(){
 {/* 51 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1000' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1000&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1249,7 +1249,7 @@ export default function TerminalCount(){
 {/* 52 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1100' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1100&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1268,7 +1268,7 @@ export default function TerminalCount(){
 {/* 53 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1200' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1200&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1287,7 +1287,7 @@ export default function TerminalCount(){
 {/* 54 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1300' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1300&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1306,7 +1306,7 @@ export default function TerminalCount(){
 {/* 55 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1400' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1400&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1325,7 +1325,7 @@ export default function TerminalCount(){
 {/* 56 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1500' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1500&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1344,7 +1344,7 @@ export default function TerminalCount(){
 {/* 57 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1600' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1600&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1363,7 +1363,7 @@ export default function TerminalCount(){
 {/* 58 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1700' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1700&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1382,7 +1382,7 @@ export default function TerminalCount(){
 {/* 59 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1800' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1800&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1402,7 +1402,7 @@ export default function TerminalCount(){
 {/* 60 - 8 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1900' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 -top-3 ">8P - 1900&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1427,7 +1427,7 @@ export default function TerminalCount(){
 {/* 61 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 25' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 25&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1447,7 +1447,7 @@ export default function TerminalCount(){
 {/* 62 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 50' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 50&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1466,7 +1466,7 @@ export default function TerminalCount(){
 {/* 62 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 100' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 100&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1485,7 +1485,7 @@ export default function TerminalCount(){
 {/* 63 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 200' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 200&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1504,7 +1504,7 @@ export default function TerminalCount(){
 {/* 64 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 300' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 300&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1523,7 +1523,7 @@ export default function TerminalCount(){
 {/* 65 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 400' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 400&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1542,7 +1542,7 @@ export default function TerminalCount(){
 {/* 66 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 500' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 500&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1562,7 +1562,7 @@ export default function TerminalCount(){
 {/* 67 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 600' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 600&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1581,7 +1581,7 @@ export default function TerminalCount(){
 {/* 68 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 700' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 700&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1601,7 +1601,7 @@ export default function TerminalCount(){
 {/* 69 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 800' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 800&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1621,7 +1621,7 @@ export default function TerminalCount(){
 {/* 70 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 900' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 900&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1640,7 +1640,7 @@ export default function TerminalCount(){
 {/* 71 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1000' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1000&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1659,7 +1659,7 @@ export default function TerminalCount(){
 {/* 72 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1100' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1100&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1678,7 +1678,7 @@ export default function TerminalCount(){
 {/* 73 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1200' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1200&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1697,7 +1697,7 @@ export default function TerminalCount(){
 {/* 74 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1300' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1300&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1716,7 +1716,7 @@ export default function TerminalCount(){
 {/* 75 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1400' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1400&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1736,7 +1736,7 @@ export default function TerminalCount(){
 {/* 76 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1500' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1500&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1756,7 +1756,7 @@ export default function TerminalCount(){
 {/* 77 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1600' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1600&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1775,7 +1775,7 @@ export default function TerminalCount(){
 {/* 78 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1700' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1700&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1795,7 +1795,7 @@ export default function TerminalCount(){
 {/* 79 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1800' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1800&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">
@@ -1814,7 +1814,7 @@ export default function TerminalCount(){
 {/* 80 - 12 */}
 <div className="bg-gray-800 rounded-lg ml-2 mt-1 mb-3">
     <div className="relative flex flex-col flex-wrap items-center p-4 bg-opacity-75 border border-pink-500 rounded-lg">
-    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1900' </h3>
+    <h3 className="absolute px-3 py-1 text-xl font-medium text-white bg-opacity-25 rounded-full bg-gradient-to-r from-purple-500 to-purple-400 -top-3 ">12P - 1900&apos;</h3>
 
     <br />
     <div className="flex flex-row flex-nowrap">

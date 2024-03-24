@@ -18,7 +18,7 @@ function Cable () {
     const [tapeLength, setTapeLength] = useState(0);
     const [tapeTension, setTapeTension] = useState(0);
     const [newSag, setNewSag] = useState(0);
-    
+ 
     const [uniformLoad, setUniformLoad] = useState(0);
     const [uniformLength, setUniformLength] = useState(0);
     const [uniformSag, setUniformSag] = useState(0);
