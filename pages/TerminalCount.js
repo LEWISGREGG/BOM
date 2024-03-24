@@ -1,8 +1,17 @@
 import { useLocalStorage } from ".././localstorage"
 import SignOut from "../components/SignOut";
+import React, {useState} from 'react';
 
 export default function TerminalCount(){
   const currentYear = new Date().getFullYear();
+
+  const [outcomeOne, setOutcomeOne] = useState();
+  const [outcomeTwo, setOutcomeTwo] = useState();
+  const [outcomeThree, setOutcomeThree] = useState();
+  const [outcomeFour, setOutcomeFour] = useState();
+  const [outcomeFive, setOutcomeFive] = useState();
+  const [outcomeSix, setOutcomeSix] = useState();
+
 
   const [counter, setCounter] = useLocalStorage('counter', 0);
   const [secondCounter, setSecondCounter] = useLocalStorage('secondCounter', 0);
@@ -107,7 +116,73 @@ export default function TerminalCount(){
     <div className="bg-gray-100 ">
       <SignOut/>
     <h1 className="flex justify-center items-center text-black text-2xl mt-2 font-bold uppercase relative">Terminal Calculator</h1>
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center py-5"> 
+
+    <button className=' shadow bg-pink-500 hover:bg-pink-400 focus:shadow-outline focus:outline-none
+                    text-white font-bold ml-2 py-2 px-2 rounded' type="button" 
+                    onClick={() => {
+                    setOutcomeOne(parseFloat(counter) + parseFloat(secondCounter) + parseFloat(thirdCounter) + parseFloat(fourthCounter) + parseFloat(fifthCounter) + 
+                    parseFloat(sixthCounter) + parseFloat(seventhCounter) + parseFloat(eighthCounter) + parseFloat(ninthCounter) + parseFloat(tenthCounter) + 
+                    parseFloat(eleventhCounter) + parseFloat(aCounter) + parseFloat(bCounter) + + parseFloat(cCounter) + parseFloat(dCounter) + parseFloat(eCounter) + parseFloat(fCounter) +
+                    parseFloat(gCounter) + parseFloat(hCounter) + parseFloat(iCounter) + parseFloat(jCounter)
+                    )}}>Count 4 Port</button>
+
+<button className=' shadow bg-green-500 hover:bg-green-400 focus:shadow-outline focus:outline-none
+                    text-white font-bold ml-2 py-2 px-2 rounded' type="button" 
+                    onClick={() => {
+                    setOutcomeTwo(parseFloat(kCounter) + parseFloat(lCounter) + parseFloat(mCounter) + parseFloat(nCounter) + parseFloat(oCounter)
+                    + parseFloat(pCounter) + parseFloat(qCounter) + parseFloat(rCounter) + parseFloat(sCounter) + parseFloat(tCounter) + parseFloat(uCounter)
+                    + parseFloat(vCounter) + parseFloat(wCounter) + parseFloat(xCounter) + parseFloat(yCounter) + parseFloat(zCounter) + parseFloat(zaCounter)
+                    + parseFloat(zbCounter) + parseFloat(zcCounter) + parseFloat(zdCounter) + parseFloat(zeCounter) 
+                    )}}>Count 6 Port</button>
+
+
+<button className=' shadow bg-yellow-500 hover:bg-yellow-400 focus:shadow-outline focus:outline-none
+                    text-white font-bold ml-2 py-2 px-2 rounded' type="button" 
+                    onClick={() => {
+                    setOutcomeThree(parseFloat(zfCounter) + parseFloat(zgCounter) + parseFloat(zhCounter) + parseFloat(ziCounter) + parseFloat(zjCounter)
+                    + parseFloat(zkCounter) + parseFloat(zlCounter) + parseFloat(zmCounter) + parseFloat(znCounter) + parseFloat(zoCounter) + parseFloat(zpCounter)
+                    + parseFloat(zqCounter) + parseFloat(zrCounter) + parseFloat(zsCounter) + parseFloat(ztCounter) + parseFloat(zuCounter) + parseFloat(zvCounter)
+                    + parseFloat(zwCounter) + parseFloat(zxCounter) + parseFloat(zyCounter) + parseFloat(zzCounter)  
+                    )}}>Count 8 Port</button>
+
+<button className=' shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none
+                    text-white font-bold ml-2 py-2 px-2 rounded' type="button" 
+                    onClick={() => {
+                    setOutcomeFour(parseFloat(zzaCounter) + parseFloat(zzbCounter) + parseFloat(zzcCounter) + parseFloat(zzdCounter) + parseFloat(zzeCounter)
+                    + parseFloat(zzfCounter) + parseFloat(zzgCounter) + parseFloat(zzhCounter) + parseFloat(zziCounter) + parseFloat(zzjCounter) + parseFloat(zzkCounter)
+                    + parseFloat(zzlCounter) + parseFloat(zzmCounter) + parseFloat(zznCounter) + parseFloat(zzoCounter) + parseFloat(zzpCounter) + parseFloat(zzqCounter)
+                    + parseFloat(zzrCounter) + parseFloat(zzsCounter) + parseFloat(zztCounter) + parseFloat(zzuCounter)
+                    )}}>Count 12 Port</button>
+
+
+<button className=' shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none
+                    text-white font-bold ml-2 py-2 px-2 rounded' type="button" 
+                    onClick={() => {
+                    setOutcomeFive(parseFloat(outcomeOne) + parseFloat(outcomeTwo) + parseFloat(outcomeThree) + parseFloat(outcomeFour) 
+              
+                    )}}>Total Count</button>
+</div>  
+
+
+<div className="border-2 border-pink-600 border-dashed "></div>
+<div className="flex items-center justify-center"> 
+<p className="font-bold text-lg text-pink-500 " >Total: {outcomeOne}# - 4 Port Terminals Placed</p></div>
+<div className="border-2 border-green-600 border-dashed"></div>
+<div className="flex items-center justify-center"> 
+<p className="font-bold text-lg text-green-700" >Total: {outcomeTwo}# - 6 Port Terminals Placed</p></div> 
+<div className="border-2 border-green-600 border-dashed"></div>
+<div className="flex items-center justify-center"> 
+<p className="font-bold text-lg text-yellow-500" >Total: {outcomeThree}# - 8 Port Terminals Placed</p></div> 
+<div className="border-2 border-yellow-600 border-dashed"></div>
+<div className="flex items-center justify-center"> 
+<p className="font-bold text-lg text-purple-700" >Total: {outcomeFour}# - 12 Port Terminals Placed</p></div> 
+<div className="border-2 border-purple-600 border-dashed"></div>
+<div className="flex items-center justify-center"> 
+<p className="font-bold text-lg text-blue-700" >Total: {outcomeFive}# - Terminals Placed</p></div> 
+<div className="border-2 border-blue-600 border-dashed"></div>
+
+ <div className="flex items-center justify-center">
     <button className="mt-2 h-10 px-5  text-indigo-100 transition-colors duration-150 bg-indigo-600 rounded-full focus:shadow-outline hover:bg-indigo-800" onClick = {clickHandler} >Reset Count</button>
     </div>
     <div className="h-full w-full py-5 px-5 bg-gray-100 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7">
