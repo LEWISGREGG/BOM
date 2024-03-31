@@ -8,20 +8,20 @@ import SignOut from "../components/SignOut";
 function Cable () {
     const currentYear = new Date().getFullYear();
 
-    const [totalLength, setTotalLength] = useState(0);
-    const [lowerF, setLowerF] = useState(0);
-    const [upperF, setUpperF] = useState(0);
+    const [totalLength, setTotalLength] = useState();
+    const [lowerF, setLowerF] = useState();
+    const [upperF, setUpperF] = useState();
     const [linearEx, setLinearEx] = useState();
     const [newLength, setNewLength] = useState(0);
 
-    const [tapeWeight, setTapeWeight] = useState(0);
-    const [tapeLength, setTapeLength] = useState(0);
-    const [tapeTension, setTapeTension] = useState(0);
+    const [tapeWeight, setTapeWeight] = useState();
+    const [tapeLength, setTapeLength] = useState();
+    const [tapeTension, setTapeTension] = useState();
     const [newSag, setNewSag] = useState(0);
  
-    const [uniformLoad, setUniformLoad] = useState(0);
-    const [uniformLength, setUniformLength] = useState(0);
-    const [uniformSag, setUniformSag] = useState(0);
+    const [uniformLoad, setUniformLoad] = useState();
+    const [uniformLength, setUniformLength] = useState();
+    const [uniformSag, setUniformSag] = useState();
     const [newUniformLength, setNewUniformLength] = useState(0);
 
     const [horizontalForce, setHorizontalForce] = useState(0);
@@ -63,6 +63,18 @@ function Cable () {
     const [unevenTensiontwo, setUnevenTensiontwo] = useState(0);
     const [unevenSpan, setUnevenSpan] = useState(0);
 
+    function validateTextBox() {
+        if (document.getElementById("textbox") !='') {
+            
+        } else {
+            alert("Please enter a number");
+        }
+    }
+
+
+
+
+
     return (
 
 <div className="bg-pink-50">
@@ -77,22 +89,22 @@ function Cable () {
 <div className="space-y-4 text-xs text-gray-800 border-r-2  border-purple-300 mr-2 ">
     <h5 className="font-bold text-base text-decoration-line: underline ">Cable Temperature Fluctuation </h5>
     <p className="font-bold text-sm">· L=l*Δ*(T<sub>u</sub>-T<sub>l</sub>)</p>
-    <p className="font-bold text-sm">· Lower °C (T<sub>l</sub>) :  <input type="number" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
- disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
+    <p className="font-bold text-sm">· Lower °C (T<sub>l</sub>) :  <input type="number" placeholder="23" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
+ disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={lowerF} onChange={evt => setLowerF(evt.currentTarget.value)} /> </p>
 
-    <p className="font-bold text-sm">· Upper °C (T<sub>u</sub>) :  <input type="number" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
- disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
+    <p className="font-bold text-sm">· Upper °C (T<sub>u</sub>) :  <input type="number" placeholder="34" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
+ disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={upperF} onChange={evt => setUpperF(evt.currentTarget.value)} /> </p>
 
 
 
-<p className="font-bold text-sm" >· Initial Length (l) m :  <input type="number" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
- disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
+<p className="font-bold text-sm" >· Initial Length (l) m :  <input type="number"  placeholder="256" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
+ disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={totalLength} onChange={evt => setTotalLength(evt.currentTarget.value)} /> </p>
 
 <p className="font-bold text-sm">· Linear Expansion (Δ) :  <input type="number" placeholder="0.0000005" className="bg-gray-50 w-24 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
- disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
+ disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={linearEx} onChange={evt => setLinearEx(evt.currentTarget.value)} /> </p>
 
 <button className=' shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none
@@ -109,16 +121,16 @@ function Cable () {
     <h5 className="font-bold text-base text-decoration-line: underline">Cable Sag Correction</h5>
     <p className="font-bold text-sm">· ΔL=w<sup>2</sup>*L<sup>3</sup> / 24*P<sup>2</sup></p>
 
-<p className="font-bold text-sm">· Cable Length (L) m :  <input type="number" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
- disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
+<p className="font-bold text-sm">· Cable Length (L) m :  <input type="number" placeholder="156" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
+ disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={tapeLength} onChange={evt => setTapeLength(evt.currentTarget.value)} /> </p>
 
-<p className="font-bold text-sm">· Cable Tension (P) N :  <input type="number" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
- disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
+<p className="font-bold text-sm">· Cable Tension (P) N :  <input type="number" placeholder="67" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
+ disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={tapeTension} onChange={evt => setTapeTension(evt.currentTarget.value)} /> </p>
 
-    <p className="font-bold text-sm">· Cable Weight (w) N/m :  <input type="number" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
- disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
+    <p className="font-bold text-sm">· Cable Weight (w) N/m :  <input type="number" placeholder="1.6" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
+ disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={tapeWeight} onChange={evt => setTapeWeight(evt.currentTarget.value)} /> </p>
 <p className="font-bold text-sm"> <input type="hidden"/>Note: Sag correction is negative</p>
 
@@ -137,16 +149,16 @@ function Cable () {
     <h5 className="font-bold text-base text-decoration-line: underline">Length of Uniformly Loaded Cables</h5>
     <p className="font-bold text-sm">· s=L + 8*h<sup>2</sup>/(3*L) </p>
 
- <p className="font-bold text-sm">· Sag (h) ft :  <input type="number" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
- disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
+ <p className="font-bold text-sm">· Sag (h) ft :  <input type="number" placeholder="2" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
+ disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={uniformSag} onChange={evt => setUniformSag(evt.currentTarget.value)} /> </p>  
 
-    <p className="font-bold text-sm">· Uniform Load lb/ft :  <input type="number" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
- disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
+    <p className="font-bold text-sm">· Uniform Load lb/ft :  <input type="number" placeholder="1.4" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
+ disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={uniformLoad} onChange={evt => setUniformLoad(evt.currentTarget.value)} /> </p>
 
-<p className="font-bold text-sm">· Cable Length (L) ft :  <input type="number" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
- disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
+<p className="font-bold text-sm">· Cable Length (L) ft :  <input type="number" placeholder="235" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
+ disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={uniformLength} onChange={evt => setUniformLength(evt.currentTarget.value)} /> </p>
 
 <p className="font-bold text-sm"> <input type="hidden"/>Note that the equation is not valid when h {">"} L / 4</p>

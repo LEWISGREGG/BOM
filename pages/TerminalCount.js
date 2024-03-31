@@ -5,12 +5,12 @@ import React, {useState} from 'react';
 export default function TerminalCount(){
   const currentYear = new Date().getFullYear();
 
-  const [outcomeOne, setOutcomeOne] = useState();
-  const [outcomeTwo, setOutcomeTwo] = useState();
-  const [outcomeThree, setOutcomeThree] = useState();
-  const [outcomeFour, setOutcomeFour] = useState();
-  const [outcomeFive, setOutcomeFive] = useState();
-  const [outcomeSix, setOutcomeSix] = useState();
+  const [outcomeOne, setOutcomeOne] = useState(0);
+  const [outcomeTwo, setOutcomeTwo] = useState(0);
+  const [outcomeThree, setOutcomeThree] = useState(0);
+  const [outcomeFour, setOutcomeFour] = useState(0);
+  const [outcomeFive, setOutcomeFive] = useState(0);
+  const [outcomeSix, setOutcomeSix] = useState(0);
 
 
   const [counter, setCounter] = useLocalStorage('counter', 0);
@@ -722,7 +722,7 @@ export default function TerminalCount(){
     </button>
     <h1 className="italic ml-3 mr-3 font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{qCounter}</h1>
     <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-1 px-2 border border-blue-500 hover:border-transparent rounded" onClick={() => setQCounter(qCounter - 1)}>
-      REMp
+      REM
     </button>
     </div>
     </div>

@@ -6,6 +6,11 @@ import FirebaseCreate from '../components/FirebaseCreate';
 import DataBlock from '../components/DataBlock';
 import SignOut from '../components/SignOut';
 
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7hBLq6lqjdOQCJ45EXO-zNtFlltlFnYk&libraries=places">
+</script>
+
 const ref = firebase.firestore().collection("bom");
 
 export default function Home() {
