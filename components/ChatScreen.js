@@ -40,7 +40,7 @@ function ChatScreen({ items, qtys }) {
       ));
     } else {
       return JSON.parse(items, qtys).map((item, qty) => (
-        <Message key={qty.id} user={item.user} item={item} qty={qty}/>
+        <Message key={item.id} user={item.user} item={item} qty={qty}/>
       ));
     }
   };

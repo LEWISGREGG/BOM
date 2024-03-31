@@ -20,6 +20,16 @@ function SignOut() {
 <Image src="https://www.svgrepo.com/show/420135/cable-device-electronic.svg" alt="" layout="fill" objectFit='contain' objectPosition="left" className='rounded'/>
 </div>
 
+<div onClick={() => router.push('/App') } className="relative flex items-center col-span-5 h-14 cursor-pointer my-auto">
+<Image src="https://www.svgrepo.com/show/420100/device-electronic-machine-19.svg" alt="" layout="fill" objectFit='contain' objectPosition="left" className='rounded'/>
+</div>
+
+<div onClick={() => router.push('/Blocks') } className="relative flex items-center col-span-5 h-14 cursor-pointer my-auto">
+<Image src="https://www.svgrepo.com/show/415028/robot-children-metal.svg" alt="" layout="fill" objectFit='contain' objectPosition="left" className='rounded'/>
+</div>
+
+
+
 
 <div onClick={() => router.push('/Hoa') } className="relative flex items-center col-span-5 h-14 cursor-pointer my-auto">
 <Image src="https://www.svgrepo.com/show/420104/device-electronic-machine-21.svg" alt="" layout="fill" objectFit='contain' objectPosition="left" className='rounded'/>

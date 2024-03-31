@@ -1,6 +1,6 @@
 import React from 'react'
 import { auth, provider } from "../firebase";
-import Image from "next/image";
+
 
 function SignIn() {
     const currentYear = new Date().getFullYear();
