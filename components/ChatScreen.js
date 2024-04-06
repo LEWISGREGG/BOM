@@ -8,8 +8,11 @@ import Message from "./Message";
 import SignOut from "./SignOut";
 import {ref, remove} from 'firebase/database';
 import {v4 as uuidv4} from "uuid";
-function ChatScreen({ items, qtys }) {
 
+
+
+function ChatScreen({ items, qtys, bom, id }) {
+  const [name, setname] = useState("")
   const router = useRouter();
 
   const [endOfItemsRef, endOfQtysRef] = useRef(null);
@@ -29,7 +32,7 @@ function ChatScreen({ items, qtys }) {
     if (itemsSnapshot) {
       return itemsSnapshot.docs.map((item, qty) => (
         <Message
-          key={qty.id}
+          key={item.id}
           user={item.data().user}
           qty={{
           ...qty.data}}
@@ -71,12 +74,12 @@ function ChatScreen({ items, qtys }) {
     });
   }
 
-
+  const currentYear = new Date().getFullYear();
 
   return (
     <div className=' bg-white-100'>
-      <div className=''><SignOut/></div>
-      
+    <SignOut/>
+    
       
     <div className='flex items-center justify-between flex-wrap border-b shadow-lg p-2' >
         
@@ -116,7 +119,7 @@ function ChatScreen({ items, qtys }) {
         <input className="placeholder-green-500 p-1 m-1 w-40 font-bold rounded-lg italic border-2 border-gray-400 bg-white text-sm"
           value={inputa}
           onChange={(e) => setInputa(e.target.value)}
-          type="text" placeholder="Quantity: 7" >
+          type="number" placeholder="Quantity: 7" >
         </input>
     
 
@@ -124,15 +127,21 @@ function ChatScreen({ items, qtys }) {
         disabled={!input} type="submit" onClick={sendItem}> Add Item</button>
         
       </div> 
-      
+      <h2 className="text-center font-bold text-2xl mb-2">
+           Quantities {id} </h2>
 
-      <div className="h-full p-2 font-semibold">
+      <div className="grid grid-cols-1 md:grid-cols-1 ">
         {showItems()}
 
         <EndOfMessage ref={endOfQtysRef} />
         <EndOfMessage ref={endOfItemsRef} />
-      </div>
       
+      </div>
+
+      <section className="flex justify-center items-center max-w-8xl rounded-lg  text-black-600">
+    <div className="font-bold">&copy; {currentYear} OSP TELCO ALL RIGHTS RESERVED</div>
+      </section>
+
     </div>
   );
 }

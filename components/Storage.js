@@ -7,7 +7,7 @@ import Link from 'next/link';
 function Storage() {
 
     localStorage.setItem('url', JSON.stringify({
-      url: url
+      url: url,
   }))
     const [url, setUrl] = useState('')
     JSON.parse(localStorage.getItem('url'))
