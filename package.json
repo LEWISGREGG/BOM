@@ -24,9 +24,13 @@
     "googleapis": "^134.0.0",
     "moment": "^2.29.4",
     "next": "^12.3.4",
+    "next-themes": "^0.3.0",
     "node": "^16.20.1",
+    "pretty-bytes": "^6.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-file-icon": "^1.4.0",
     "react-firebase-hooks": "^3.0.5",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.0.1",
@@ -42,7 +46,8 @@
     "timeago.js": "^4.0.2",
     "tw-elements": "^2.0.0",
     "use-places-autocomplete": "^4.0.1",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
     "eslint": "8.46.0",
