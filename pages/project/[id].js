@@ -15,7 +15,7 @@ function Chat({ chat, items, qtys, id }) {
         </Head>
         <ChatContainer>
 
-          <ChatScreen chat={chat} items={items} qtys={qtys}/>
+          <ChatScreen chat={chat} id={id}  items={items}  qtys={qtys}/>
         </ChatContainer>
     
       </Container>
