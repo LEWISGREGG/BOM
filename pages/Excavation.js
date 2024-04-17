@@ -163,7 +163,7 @@ difficult unless it is known whether cracks exist and whether the cracks run int
       <PopoverContent>
       Type A Soils are cohesive soils with an unconfined compressive strength of 1.5 tons per square foot (tsf) (144 kPa) or
 greater. Examples of Type A cohesive soils are often: clay, silty clay, sandy clay, clay loam, and, in some cases, silty clay
-loam and sandy clay loam. (No soil is Type A if it is fissured, is subject to vibration of any type, has previously been
+loam and sandy clay loam. No soil is Type A if it is fissured, is subject to vibration of any type, has previously been
 disturbed, is part of a sloped, layered system where the layers dip into the excavation on a slope of 4 horizontal to 1
 vertical (4H:1V) or greater, or has seeping water.
       </PopoverContent>
@@ -250,10 +250,10 @@ onClick={() => {handleCalculate (); handleCalculatea (); toggleShow(!show );
 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-y-6 py-2">
           <div  className="grid grid-cols-1 md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1">
 
-          <p className="text-left text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-2xl py-1 ">Trench Slope [a] : {resulta}'</p>
-          <p className="text-left text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-2xl py-1 ">Trench Width [b] : {trenchWidth}'</p>
-          <p className="text-left text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-2xl py-1 ">Trench Height [h] : {trenchHeight}'</p>      
-          <p className="text-left text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-2xl py-1 ">Total Trench Width [c] : {result}'</p>
+          <p className="text-left text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-2xl py-1 ">Trench Slope [a] : {resulta}&apos;</p>
+          <p className="text-left text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-2xl py-1 ">Trench Width [b] : {trenchWidth}&apos;</p>
+          <p className="text-left text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-2xl py-1 ">Trench Height [h] : {trenchHeight}&apos;</p>      
+          <p className="text-left text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-2xl py-1 ">Total Trench Width [c] : {result}&apos;</p>
           
           </div>
 <form className="inline-block relative appearance-none bg-white border-2 border-gray-400 hover:border-gray-500 p-1 rounded-lg shadow leading-tight focus:outline-none focus:shadow-outline">         
@@ -314,19 +314,19 @@ className="rounded-xl max-w-96 max-h-96"/>
 
     <div className="block rounded-lg w-40 xl:w-96 lg:w-96 bg-white shadow-secondary-1 dark:bg-surface-dark">
 <form className="inline-block py-1 px-1 w-full  rounded-e-lg text-md focus:z-10 bg-white border-2 border-gray-300 hover:border-gray-500 p-1 rounded-lg shadow leading-tight focus:outline-none focus:shadow-outline">
-      <p className="text-center text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-xl py-1 ">Top Trench Width [c] : {resultb}'</p> 
+      <p className="text-center text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-xl py-1 ">Top Trench Width [c] : {resultb}&apos;</p> 
 </form>
 <form className="inline-block py-1 px-1 w-full  rounded-e-lg text-md focus:z-10 bg-white border-2 border-gray-300 hover:border-gray-500 p-1 rounded-lg shadow leading-tight focus:outline-none focus:shadow-outline">
-      <p className="text-center text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-xl py-1 ">Total Trench Height [h] : {resultc}'</p>
+      <p className="text-center text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-xl py-1 ">Total Trench Height [h] : {resultc}&apos;</p>
 </form>  
 <form className="inline-block py-1 px-1 w-full  rounded-e-lg text-md focus:z-10 bg-white border-2 border-gray-300 hover:border-gray-500 p-1 rounded-lg shadow leading-tight focus:outline-none focus:shadow-outline">   
-      <p className="text-center text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-xl py-1 ">Bottom Trench Width [b] : {trenchWidtha}'</p>
+      <p className="text-center text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-xl py-1 ">Bottom Trench Width [b] : {trenchWidtha}&apos;</p>
 </form>  
 <form className="inline-block py-1 px-1 w-full  rounded-e-lg text-md focus:z-10 bg-white border-2 border-gray-300 hover:border-gray-500 p-1 rounded-lg shadow leading-tight focus:outline-none focus:shadow-outline">       
-      <p className="text-center text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-xl py-1 ">Upper Trench Height [h<sub>2</sub>] : {trenchHeightd}'</p>
+      <p className="text-center text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-xl py-1 ">Upper Trench Height [h<sub>2</sub>] : {trenchHeightd}&apos;</p>
 </form>       
 <form className="inline-block py-1 px-1 w-full  rounded-e-lg text-md focus:z-10 bg-white border-2 border-gray-300 hover:border-gray-500 p-1 rounded-lg shadow leading-tight focus:outline-none focus:shadow-outline">       
-      <p className="text-center text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-xl py-1 ">Lower Trench Height [h<sub>1</sub>] : {trenchHeighta}'</p>
+      <p className="text-center text-sm font-bold sm:text-sm md:text-lg lg:text-xl xl:text-xl py-1 ">Lower Trench Height [h<sub>1</sub>] : {trenchHeighta}&apos;</p>
  </form>     
  <div className="p-2">
         <button className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-2.5 text-center dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900" onClick={handleClick}>Edit</button>
@@ -410,9 +410,6 @@ className="rounded-xl max-w-96 max-h-96"/>
       ) : null}
       </div>       
     </form>
- 
- 
-
 
 </div>
 
