@@ -6,7 +6,7 @@ import usePlacesAutocomplete, { getGeocode, getLatLng} from "use-places-autocomp
 import mapStyles from "../components/mapStyles";
 
 
-function Hoa() {
+function HOA() {
 
   const libraries = ["places"];
   const mapContainerStyle = {
@@ -500,6 +500,6 @@ function Search({ panTo }) {
 
 }
 
-export default Hoa;
+export default HOA;
 
 
