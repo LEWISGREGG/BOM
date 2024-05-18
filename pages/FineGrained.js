@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import SignOut from '../components/SignOut'
 import { useRouter } from "next/router";
 
-
-
 function FineGrained() {
     const router = useRouter();
 
@@ -60,39 +58,29 @@ function FineGrained() {
     <h2 className="text-center font-bold text-4xl mb-2 py-5 underline decoration-indigo-500">
     Fine-grained soil</h2>
     </div>
-
-
-
     <div className="py-1 max-w-2xl mx-auto px-8 sm:px-16 border-4 border-green-500 hover:border-8">
     <h1 className="text-center font-bold text-xl mb-2 py-5">
     Is (w<sub>LL</sub>oven dried) / (w<sub>LL</sub>not dried) &#60; 0.75% </h1>
-
-
-
     <div className="flex justify-center space-x-10 mb-5">
-
-     <div className="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700 bg-red-600 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5">
-     <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
+    <div className="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700 bg-red-600 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5">
+    <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
 shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} onChange={handleChnageTextColor} />
     <label for="bordered-checkbox-1" className="w-full text-lg font-medium text-gray-900 dark:text-gray-300"
     >YES</label> 
 </div>
 
 <div className="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700 bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5">
-     <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
+    <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
 shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} onChange={handleChnageTextColora} />
     <label for="bordered-checkbox-1" className="w-full text-lg font-medium text-gray-900 dark:text-gray-300"
     >NO</label> 
 </div>
-
 </div>
-
 </div>
 <div className="flex justify-center max-w-xl mx-auto px-8 sm:px-16 space-x-2">
 <div className='border-l-[2px] hover:border-l-[4px]   border-red-600  w-5/12' > <p className="py-10"></p></div>
 <div className='border-r-[2px]  hover:border-r-[4px]   border-blue-600  w-5/12' > <p className="py-10"></p></div>
 </div>
-
 <div>
 
         <div className="grid grid-cols-2 md:grid-cols-2 gap-y-10 px-10 py-1  text-gray-700 rounded-lg">
@@ -104,14 +92,14 @@ shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} o
 <p className="font-light text-6xl text-red-500">l</p></div>
 
 
-   <div className="space-y-2 mr-1 ml-1 p-6 text-gray-800 border-2 border-red-400 sm:mr-6 sm:ml-6 md:mr-6 md:ml-6 lg:mr-12 lg:ml-12 xlg:mr-12 xlg:ml-12">
+    <div className="space-y-2 mr-1 ml-1 p-6 text-gray-800 border-2 border-red-400 sm:mr-6 sm:ml-6 md:mr-6 md:ml-6 lg:mr-12 lg:ml-12 xlg:mr-12 xlg:ml-12">
     <h1 className="text-center font-bold text-xs sm:text-md md:text-lg lg:text-xl xl:text-xl mb-2  switch-container_text" style={{ color:textColora}}>
     Is Liquid Limit &#62; 50% ? </h1>
 
     <div className=" flex justify-center space-x-1 mb-5 xlg:space-x-10 lg:space-x-10 md:space-x-1 sm:space-x-1">
 
-     <div className="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700 bg-red-600 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5">
-     <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
+    <div className="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700 bg-red-600 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5">
+    <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
 shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} onChange={handleChnageTextColorb} />
     <label for="bordered-checkbox-1" className="w-full text-lg font-medium text-gray-900 dark:text-gray-300"
     >YES</label> 
@@ -120,7 +108,7 @@ shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} o
 <div className="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700
  bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5
  ">
-     <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
+    <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
 shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} onChange={handleChnageTextColorc} />
     <label for="bordered-checkbox-1" className="w-full text-lg font-medium text-gray-900 dark:text-gray-300"
     >NO</label> 
@@ -138,19 +126,13 @@ shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} o
     High plasticity, 2nd letter is H. Soil is fat clay or elastic silt </h1>
 
 </div>
-
 <div className="flex items-center p-2 ">
 <h1 className="text-center font-bold text-xs sm:text-md md:text-lg lg:text-xl xl:text-xl mb-2  switch-container_text" style={{ color:textColorb}}>
   Low plasticity, 2nd letter is L. Soil is lean clay or silt </h1>
-
 </div>
 </div>
-
 </div>
     
-    
-
-
 <div className="space-y-4 ml-2 border-2 border-blue-500 hover:border-4 text-gray-800">
 <div className="space-y-2 mr-1 ml-1 mt-6 p-6 text-gray-800 border-2 border-blue-400 sm:mr-6 sm:ml-6 md:mr-6 md:ml-6 lg:mr-12 lg:ml-12 xlg:mr-12 xlg:ml-12">
 <h1 className="text-center font-bold mb-2 py-2 switch-container_text
@@ -159,15 +141,15 @@ text-xs sm:text-md md:text-lg lg:text-xl xl:text-xl" style={{ color:textColor}} 
 
     <div className=" flex justify-center space-x-1 mb-5 xlg:space-x-10 lg:space-x-10 md:space-x-1 sm:space-x-1">
 
-     <div className="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700 bg-red-600 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5">
-     <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
+    <div className="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700 bg-red-600 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5">
+    <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
 shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} onChange={handleChnageTextColord} />
     <label for="bordered-checkbox-1" className="w-full text-lg font-medium text-gray-900 dark:text-gray-300"
     >YES</label> 
 </div>
 
 <div className="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700 bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5">
-     <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
+    <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
 shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} onChange={handleChnageTextColore} />
     <label for="bordered-checkbox-1" className="w-full text-lg font-medium text-gray-900 dark:text-gray-300"
     >NO</label> 
@@ -178,8 +160,6 @@ shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} o
 <div className='border-l-[2px]  hover:border-l-[4px]  border-red-600  w-5/12' > <p className="py-10"></p></div>
 <div className='border-r-[2px]  hover:border-r-[4px]   border-blue-600  w-5/12' > <p className="py-10"></p></div>
 </div>
-
-
 
     <div className=" flex justify-center space-x-7 mb-5">
     <h1 className="text-center font-bold mb-2  switch-container_text
@@ -200,8 +180,8 @@ shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} o
 
     <div className=" flex justify-center space-x-1 mb-5 xlg:space-x-10 lg:space-x-10 md:space-x-1 sm:space-x-1">
 
-     <div class="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700 bg-red-600 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5">
-     <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
+    <div class="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700 bg-red-600 hover:bg-red-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5">
+    <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
 shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} onChange={handleChnageTextColorg} />
     <label for="bordered-checkbox-1" className="w-full text-lg font-medium text-gray-900 dark:text-gray-300"
     >YES</label> 
@@ -210,7 +190,7 @@ shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} o
 <div class="flex items-center p-2 border border-gray-600 rounded dark:border-gray-700
  bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-5
  ">
-     <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
+    <input type="checkbox" className=' bg-blue-600 rounded-md text-white outline-none focus:ring-4 
 shadow-lg transform active:scale-75 transition-transform mr-2' value={isBlack} onChange={handleChnageTextColorf} />
     <label for="bordered-checkbox-1" className="w-full text-lg font-medium text-gray-900 dark:text-gray-300"
     >NO</label> 
@@ -236,21 +216,9 @@ Plasticity is low, 2nd letter is L. Soil is lean clay or silt </h1>
 
 </div>
 </div>
-
-
-
-
 </div>
-
-
-
 </div>    
-
-
-    
 </div>
-
-
 </div>
     
   )

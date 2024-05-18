@@ -5,7 +5,6 @@ import { GoogleMap, useLoadScript, Marker, InfoWindow } from "@react-google-maps
 import usePlacesAutocomplete, { getGeocode, getLatLng} from "use-places-autocomplete";
 import mapStyles from "../components/mapStyles";
 
-
 function Hoa() {
 
   const libraries = ["places"];
@@ -22,10 +21,6 @@ function Hoa() {
     lat: 27.959791,
     lng: -82.431820,
   };
-
-
-
-
 
   const currentYear = new Date().getFullYear();
 
@@ -51,8 +46,6 @@ function Hoa() {
   const [attchThreeInch, setAttchThreeInch] = useState(0);
 
 
-
-
   const [polea, setPolea] = useState();
   const [catva, setCatva] = useState(0);
   const [catvIncha, setCatvIncha] = useState(0);
@@ -72,11 +65,6 @@ function Hoa() {
   const [attchTwoIncha, setAttchTwoIncha] = useState(0);
   const [attchThreea, setAttchThreea] = useState(0);
   const [attchThreeIncha, setAttchThreeIncha] = useState(0);
-
-
-
-
-
 
 
   const { isLoaded, loadError } = useLoadScript({
@@ -111,13 +99,6 @@ function Hoa() {
   if (!isLoaded) return "Loading...";
 
 
-
-
-
-
-
-
-
   function deleteDoc(){
     if (
         window.confirm("RAILROAD CROSSING REQUIRES 24' CLARENCE")
@@ -140,16 +121,9 @@ function deleteDocb(){
 
 
   return (
-
-    
 <div className="bg-yellow-50"> 
-
-
 <SignOut/>
-
 <div className="py-5 max-w-8xl mx-auto px-8 sm:px-16"> 
-
-
 
 <h2 className="text-center font-bold text-2xl mb-2">
             Pole Attachement Calculator </h2>
@@ -167,8 +141,6 @@ function deleteDocb(){
 
               <button className="bg-transparent hover:bg-yellow-500 m-2 text-yellow-700 font-semibold hover:text-white py-1 px-2 border border-blue-500 hover:border-transparent rounded"
               onClick={() => {window.print();return false}}>Generate pdf</button>
-
-
 
 </div>
 <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 p-3 -ml-2">
@@ -229,19 +201,12 @@ function deleteDocb(){
                     setLumenInch(catvInch)
                     }}>SET POA {pole}</button>
                       
-  
-
 <p className="font-bold text-sm" >· HIGHEST LUMEN HOA BELOW POWER  : {make}&apos; {makeInch}&apos;&apos;</p>
 <p className="font-bold text-sm" >· HIGHEST CATV HOA : {difference}&apos; {differenceInch}&apos;</p>  
-
 <p className="font-bold text-sm  pb-4" >· LOWEST LUMEN HOA ABOVE CATV  : {lumen}&apos; {lumenInch}&apos;&apos;</p>
-
 </div>
 
-
-
 <div className="space-y-4 text-xs">
-
 <input className="placeholder-blue-900 p-2 m-1 rounded-lg italic  
                     border-2 border-gray-800 bg-yellow-50 text-lg" type="text" id="pole" 
                     placeholder="Pole #: IP23987" required 
@@ -296,18 +261,12 @@ function deleteDocb(){
                     setLumenIncha(catvIncha)
                     }}>SET POA {polea}</button>
                       
-  
-
 <p className="font-bold text-sm" >· HIGHEST LUMEN HOA BELOW POWER  : {makea}&apos; {makeIncha}&apos;&apos;</p>
 <p className="font-bold text-sm" >· HIGHEST CATV HOA : {differencea}&apos; {differenceIncha}&apos;</p>  
-
 <p className="font-bold text-sm  pb-4" >· LOWEST LUMEN HOA ABOVE CATV  : {lumena}&apos; {lumenIncha}&apos;&apos;</p>
-
 </div>
 </div>
-
 </div>
-
 
 <div className="flex justify-center items-center ">
 
@@ -316,8 +275,6 @@ function deleteDocb(){
 
 <h1 className='font-bold text-xs sm:text-md md:text-lg lg:text-xl xl:text-xl p-1 mb-1' >POLE # : {pole}</h1>
 <h1 className='font-bold text-xs sm:text-md md:text-lg lg:text-xl xl:text-xl p-1 mb-1' >POLE # : {polea}</h1>
-
-
 
 <h1 className='font-bold text-xs sm:text-md md:text-lg lg:text-xl xl:text-xl p-1 mb-1 border-b-[7px] border-blue-900 text-green-500' >POWER HOA : {power}&apos; {powerInch}&apos;&apos;</h1>
 <h1 className='font-bold text-xs sm:text-md md:text-lg lg:text-xl xl:text-xl p-1 mb-1 border-b-[7px] border-blue-900 text-green-500' >POWER HOA : {powera}&apos; {powerIncha}&apos;&apos;</h1>
@@ -339,29 +296,14 @@ function deleteDocb(){
 <h1 className='font-bold text-xs sm:text-md md:text-lg lg:text-xl xl:text-xl p-1 mb-1 border-b-[7px] border-blue-900 text-pink-500' >CATV HOA : {catva}&apos; {catvIncha}&apos;&apos;</h1>
 
 </div>
-
-
-
         <h1 className='p-20'></h1>
-
         <div className="flex flex-row gap-2 p-2 pt-2">
-            
-        
-      
         </div> 
         <div className='mb-3 border-4 border-green-900 rounded-sm border-dashed' ></div>
-
 </div>
-        
 </div>
-
-
-
-
-
 
 <div className="flex justify-center items-center max-w-8xl rounded-lg text-black-600">
-
 
 <h1 className='font-bold  text-lg p-1 mb-1 '>Telco Poles{" "} </h1>
 <form>   
@@ -372,19 +314,15 @@ function deleteDocb(){
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
         </div>
-        <input type="search"  id="search" class="block w-full p-4 ps-10 text-sm pl-6 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required />
-       
+        <input type="search"  id="search" class="block w-full p-4 ps-10 text-sm pl-6 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600
+          dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required />
     </div>
 </form>
-
       <Locate panTo={panTo} />
       <Search panTo={panTo} />
       </div>
-
       <div className="flex justify-center items-center max-w-8xl rounded-lg py-6 text-black-600">
-
       <GoogleMap
-      
         id="map"
         mapContainerStyle={mapContainerStyle}
         zoom={20}
@@ -430,13 +368,10 @@ function deleteDocb(){
       </GoogleMap>
     </div>
 
-<section className="flex justify-center items-center max-w-8xl rounded-lg  text-black-600">
+<section className="flex justify-center items-center max-w-8xl rounded-lg text-black-600">
     <div className="font-bold">&copy; {currentYear} OSP TELCO ALL RIGHTS RESERVED</div>
 </section>
-    
 </div>
-
-
   );
 }
 
@@ -495,9 +430,6 @@ function Search({ panTo }) {
       console.log("😱 Error: ", error);
     }
   };
-
-
-
 }
 
 export default Hoa;

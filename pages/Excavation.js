@@ -29,19 +29,16 @@ function Excavation() {
         }
     }
 
-
       const [isFlipped, setIsFlipped] = useState(false);
       const handleClick = () => {
         setIsFlipped(!isFlipped);
       };
-
 
     const [soilType, setSoilType] = useState();
     const [trenchHeight, setTrenchHeight] = useState();
     const [trenchWidth, setTrenchWidth] = useState();
     const [result, setResult] = useState();
     const [resulta, setResulta] = useState();
-
 
     const [trenchWidtha, setTrenchWidtha] = useState();
     const [trenchHeighta, setTrenchHeighta] = useState();
@@ -81,7 +78,6 @@ function Excavation() {
       setResultc(calcResultc);
     };
 
-
     const handleCalculate = () => {
       let calcResult;
       if (soilType === 'A' && trenchHeight <= 20 && trenchWidth <=100) {
@@ -113,7 +109,6 @@ function Excavation() {
       }
       setResulta(calcResulta);
     };
-
 
     const [show, toggleShow] = React.useState(true);
     
@@ -169,8 +164,6 @@ vertical (4H:1V) or greater, or has seeping water.
       </PopoverContent>
     </Popover>
 
-
-
     <Popover
       animate={{
         mount: { scale: 1, y: 0 },
@@ -188,7 +181,6 @@ A soils but are fissured or subject to vibration, dry unstable rock, and layered
 than 4H:1V (only if the material would be classified as a Type B soil).
       </PopoverContent>
     </Popover>
-
 
     <Popover
       animate={{
@@ -208,7 +200,6 @@ dip into the excavation or have a slope of four horizontal to one vertical (4H:1
     </Popover>
 </div>
 
-
 <h1 className="text-center text-xl font-bold pt-3 pb-3">SIMPLE SLOPE EXCAVATION</h1>
 
 <div className="flex justify-center items-center p-1">
@@ -220,11 +211,8 @@ className="rounded-2xl max-w-fit max-h-fit  shadow-none transition-shadow durati
 </div>
 
 <div className="text-center text-xl font-bold pt-1 pb-2">
-
   <div class="flex mt-4 md:mt-6 space-x-1 rounded-lg shadow-sm">
     
-
-  
     <input type="text" placeholder="Soil type: A, B, C or A short-term" minlength="1" maxlength="18" id="hs-leading-button-add-on-with-icon" onkeydown="return /[a-zA-Z]/i.test(event.key)" name="hs-leading-button-add-on-with-icon" className="py-3 px-4 block  w-full border-gray-200 shadow-sm rounded-e-lg text-sm focus:z-10
     focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
     value={soilType} onChange={evt => setSoilType(evt.currentTarget.value)}/>
@@ -417,12 +405,8 @@ className="rounded-xl max-w-96 max-h-96"/>
     <div className="font-bold">&copy; {currentYear} OSP TELCO ALL RIGHTS RESERVED</div>
 </section>
 
-
-
 </div>
 </div>
-
-
   )
 }
 

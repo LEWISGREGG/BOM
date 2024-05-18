@@ -4,13 +4,10 @@ import Image from 'next/image';
 import soil from '.././components/soil.png'
 import { useRouter } from "next/router";
 
-
 function SoilClassification() {
 
   const currentYear = new Date().getFullYear();
-
-
-    const router = useRouter();
+  const router = useRouter();
   return (
     <div className="bg-blue-100 "> 
     <SignOut/>
@@ -30,8 +27,6 @@ shadow-lg transform active:scale-75 transition-transform hover:bg-[#ad1457]' typ
     </svg>
 </button></div>
 
-
-
     <h2 className="text-center font-bold text-4xl mb-2 py-5">
     Classify a soil using USCS flowchart : </h2>
     </div>
@@ -39,8 +34,6 @@ shadow-lg transform active:scale-75 transition-transform hover:bg-[#ad1457]' typ
     <div className="py-1 max-w-4xl mx-auto px-8 sm:px-16 border-4 border-yellow-300">
     <h1 className="text-center font-bold text-xl mb-2 py-5">
     Are 50% of soil particles &#60; 0.075 mm : </h1>
-
-    
 
     <div className=" flex justify-center space-x-10 mb-5">
 <div onClick={() => router.push('/FineGrained') } className=" cursor-pointer my-auto">
@@ -67,7 +60,6 @@ shadow-lg transform active:scale-y-75 transition-transform flex' type="button" >
     priority
     className="rounded-2xl"
     />
-
 </div>
 
 <section className="flex justify-center items-center max-w-8xl rounded-lg  text-black-600">

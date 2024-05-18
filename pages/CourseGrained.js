@@ -2,11 +2,8 @@ import React, { useState, Component } from 'react'
 import SignOut from '../components/SignOut'
 import { useRouter } from "next/router";
 
-
-
 function CourseGrained() {
     const router = useRouter();
-
 
     const View1 = ({onClick}) => (
 
@@ -293,8 +290,6 @@ function CourseGrained() {
       }
     };
 
-
-    
   return (
 
 <div className="bg-purple-0 "> 

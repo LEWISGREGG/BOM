@@ -160,12 +160,9 @@ onClick={handleCalculate}>Find Out Group Index</button>
     <p className="text-center font-bold text-4xl mb-2 py-2 ">Group classification : {resulta}</p>
     <p className="text-center font-bold text-4xl mb-2 py-2 ">Group Index : {Math.round(result)}</p>
 
-
     <section className="flex justify-center items-center max-w-8xl rounded-lg  text-black-600">
     <div className="font-bold">&copy; {currentYear} OSP TELCO ALL RIGHTS RESERVED</div>
     </section>
-
-
     </div>
   )
 }

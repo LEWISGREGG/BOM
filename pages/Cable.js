@@ -18,7 +18,7 @@ function Cable () {
     const [tapeLength, setTapeLength] = useState();
     const [tapeTension, setTapeTension] = useState();
     const [newSag, setNewSag] = useState(0);
- 
+
     const [uniformLoad, setUniformLoad] = useState();
     const [uniformLength, setUniformLength] = useState();
     const [uniformSag, setUniformSag] = useState();
@@ -71,15 +71,10 @@ function Cable () {
         }
     }
 
-
-
-
-
     return (
 
 <div className="bg-pink-50">
-      <SignOut/>
-
+    <SignOut/>
         <div className="py-5 max-w-8xl mx-auto px-8 sm:px-16"> 
             <h2 className="text-center font-bold text-lg mb-2">
             FORCE AND TENSION IN FLEXNAP CABLES WITH UNIFORM LOADS </h2>
@@ -98,7 +93,6 @@ function Cable () {
  value={upperF} onChange={evt => setUpperF(evt.currentTarget.value)} /> </p>
 
 
-
 <p className="font-bold text-sm" >· Initial Length (l) m :  <input type="number"  placeholder="256" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
  disabled:text-gray-100 mr-1 py-1 px-1 leading-tight" id="textbox" required onblur={validateTextBox()}
  value={totalLength} onChange={evt => setTotalLength(evt.currentTarget.value)} /> </p>
@@ -114,8 +108,6 @@ function Cable () {
 <p className="font-bold text-sm" >· Final Length (L) : {newLength.toFixed(2)} m</p>       
 
 </div>
-
-
 
 <div className="space-y-4 text-xs text-gray-800  border-r-2 mr-2 border-green-300 ">
     <h5 className="font-bold text-base text-decoration-line: underline">Cable Sag Correction</h5>
@@ -140,9 +132,6 @@ function Cable () {
 <p className="font-bold text-sm" >· Sag correction (ΔL) : {newSag.toFixed(2)} m</p>  
 
 </div>
-
-
-
 
 <div className="space-y-4 text-xs text-gray-800  ">
 
@@ -198,7 +187,6 @@ function Cable () {
  value={uniformForce} onChange={evt => setUniformForce(evt.currentTarget.value)} /> </p>
 
 
-
 <button className=' shadow bg-yellow-500 hover:bg-yellow-400 focus:shadow-outline focus:outline-none
                     text-white font-bold ml-6 py-2 px-2 rounded' type="button" 
                     onClick={() => {
@@ -210,7 +198,6 @@ function Cable () {
                     }}> Calculate</button>
                         
                 
-
 <p className="font-bold text-sm" >· Horizontal Support Force (R<sub>1x</sub>=R<sub>2x</sub>) : {horizontalForce.toFixed(2)} lb</p> 
 <p className="font-bold text-sm" >· Vertical Support Force (R<sub>1y</sub>=R<sub>2y</sub>) : {verticalForce.toFixed(2)} lb</p> 
 <p className="font-bold text-sm" >· Resultant Support Force (R<sub>1</sub>=R<sub>2</sub>) : {resultantForce.toFixed(2)} lb</p> 
@@ -248,7 +235,6 @@ function Cable () {
     <p className="font-bold text-sm">· S=s<sub>a</sub> + s<sub>b</sub></p>
 
 
-
 <p className="font-bold text-sm">· Span (s<sub>a</sub>) ft :  <input type="number" className="bg-gray-50 w-20 border-gray-50 rounded focus:outline-none flex-1 disabled:cursor-not-allowed 
  disabled:text-gray-100 mr-1 py-1 px-1 leading-tight"
  value={spanA} onChange={evt => setSpanA(evt.currentTarget.value)} /> </p>
@@ -274,7 +260,6 @@ function Cable () {
  value={uniformWeight} onChange={evt => setUniformWeight(evt.currentTarget.value)} /> </p>
 
 
-
 <button className=' shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none
                     text-white font-bold ml-6 py-2 px-2 rounded' type="button" 
                     onClick={() => {
@@ -294,8 +279,6 @@ function Cable () {
                     setSpanTotal (parseFloat(spanSA) + parseFloat(spanSB));
                     }}> Calculate</button>
                         
-                
-
 
 <p className="font-bold text-sm" >· Horizontal Force (R<sub>1x</sub>) : {spanRonex.toFixed(2)} lb</p> 
 <p className="font-bold text-sm" >· Vertical Force (R<sub>1y</sub>) : {spanRoney.toFixed(2)} lb</p> 
@@ -330,7 +313,6 @@ function Cable () {
 
 <div className="space-y-4 text-xs text-gray-800 ">
     
-
 <p className="font-bold text-sm">· L - span of a cable</p>
 <p className="font-bold text-sm">· T - cable tension</p>
 <p className="font-bold text-sm">· h - difference in height level between two supports</p>
@@ -400,7 +382,7 @@ function Cable () {
     </div>
 </div>
 
-    );
+);
 }
 
 export default Cable
