@@ -4,8 +4,6 @@ import Head from "next/head";
 import 'firebase/firestore';
 import ChatScreen from "../../components/ChatScreen";
 
-
-
 function Chat({ chat, items, qtys, id }) {
 
     return (
@@ -14,10 +12,8 @@ function Chat({ chat, items, qtys, id }) {
           <title>Project {id}</title>
         </Head>
         <ChatContainer>
-
           <ChatScreen chat={chat} id={id}  items={items}  qtys={qtys}/>
         </ChatContainer>
-    
       </Container>
     );
   }
@@ -69,9 +65,6 @@ function Chat({ chat, items, qtys, id }) {
     },
   };
 }
-
-
-
 
   const Container = styled.div`
   display: flex;
